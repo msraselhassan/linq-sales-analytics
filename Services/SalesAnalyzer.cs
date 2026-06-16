@@ -34,7 +34,11 @@ public sealed class SalesAnalyzer
     public IReadOnlyDictionary<string, decimal> GetRevenueByCategory()
     {
         // TODO: implement using LINQ method syntax.
-        throw new NotImplementedException("GetRevenueByCategory is not implemented yet.");
+        // throw new NotImplementedException("GetRevenueByCategory is not implemented yet.");
+
+      return  _transactions.GroupBy(g => string.IsNullOrWhiteSpace(g.Category) ? "Uncategorized" : g.Category.Trim()).ToDictionary(x => x.Key, x => x.Sum(t => t.TotalAmount));
+
+
     }
 
     /// <summary>
@@ -49,7 +53,16 @@ public sealed class SalesAnalyzer
     public IReadOnlyList<CustomerSpending> GetTop5Customers()
     {
         // TODO: implement using LINQ method syntax.
-        throw new NotImplementedException("GetTop5Customers is not implemented yet.");
+        //throw new NotImplementedException("GetTop5Customers is not implemented yet.");
+
+       return _transactions.GroupBy(c=>c.CustomerId).
+            Select(cs=> new CustomerSpending(
+            cs.Key,
+            cs.First().CustomerName,
+            cs.Sum(x=>x.TotalAmount)
+            ))
+            .OrderByDescending(t=>t.TotalSpent)
+            .Take(5).ToList();
     }
 
     /// <summary>
@@ -65,7 +78,14 @@ public sealed class SalesAnalyzer
     public IReadOnlyList<MonthlyRevenue> GetMonthlyRevenueTrend()
     {
         // TODO: implement using LINQ method syntax.
-        throw new NotImplementedException("GetMonthlyRevenueTrend is not implemented yet.");
+        //throw new NotImplementedException("GetMonthlyRevenueTrend is not implemented yet.");
+
+
+      return  _transactions.GroupBy(x => new { x.Date.Year, x.Date.Month })
+                     .Select(mr => new MonthlyRevenue(mr.Key.Year, mr.Key.Month, mr.Sum(x => x.TotalAmount)))
+                     .OrderBy(m => m.Year)
+                     .ThenBy(n => n.Month)
+                     .ToList();
     }
 }
 
