@@ -1,0 +1,93 @@
+TransactionId,Date,CustomerId,CustomerName,Category,Product,Quantity,UnitPrice,TotalAmount
+1001,2025-01-01,103,Farhan Chowdhury,Books,Design Patterns,3,2200.00,6600.00
+1002,2025-01-01,108,Priya Sharma,Clothing,Formal Shirt,3,1250.00,3750.00
+1003,2025-01-02,116,Sabrina Yasmin,Clothing,Formal Shirt,3,1250.00,3750.00
+1004,2025-01-03,120,Rumana Pervin,Electronics,External SSD 1TB,3,8500.00,25500.00
+1005,2025-01-07,113,Mehedi Hasan,Clothing,Denim Jeans,2,1850.00,3700.00
+1006,2025-01-07,117,Junayed Karim,Books,Design Patterns,2,2200.00,4400.00
+1007,2025-01-12,113,Mehedi Hasan,Toys,Remote Car,1,1850.00,1850.00
+1008,2025-01-13,101,Tahsin Rahman,Clothing,Denim Jeans,4,1850.00,7400.00
+1009,2025-01-14,108,Priya Sharma,Beauty,Face Wash,1,420.00,420.00
+1010,2025-01-14,105,Imran Hossain,Home & Kitchen,Coffee Maker,1,4200.00,4200.00
+1011,2025-01-15,113,Mehedi Hasan,Electronics,Smartphone Charger,3,950.00,2850.00
+1012,2025-01-15,105,Imran Hossain,Sports,Yoga Mat,3,980.00,2940.00
+1013,2025-01-16,113,Mehedi Hasan,Electronics,Smartphone Charger,3,950.00,2850.00
+1014,2025-01-17,107,Rafiq Islam,Sports,Football,2,1100.00,2200.00
+1015,2025-01-18,106,Ayesha Siddique,Books,Bangla Novel Collection,3,750.00,2250.00
+1016,2025-01-19,108,Priya Sharma,,Yoga Mat,1,980.00,980.00
+1017,2025-01-20,105,Imran Hossain,Toys,Puzzle 1000pcs,1,950.00,950.00
+1018,2025-01-24,101,Tahsin Rahman,Sports,Yoga Mat,2,980.00,1960.00
+1019,2025-01-25,103,Farhan Chowdhury,Books,Design Patterns,4,2200.00,8800.00
+1020,2025-01-26,117,Junayed Karim,Home & Kitchen,Coffee Maker,2,4200.00,8400.00
+1021,2025-01-28,105,Imran Hossain,Clothing,Hoodie,3,1450.00,4350.00
+1022,2025-01-30,119,Omar Faruq,Books,The Pragmatic Programmer,3,1800.00,5400.00
+1023,2025-02-01,113,Mehedi Hasan,Books,Bangla Novel Collection,3,750.00,2250.00
+1024,2025-02-01,110,Lamia Hasan,Toys,Remote Car,3,1850.00,5550.00
+1025,2025-02-03,101,Tahsin Rahman,Books,The Pragmatic Programmer,4,1800.00,7200.00
+1026,2025-02-07,107,Rafiq Islam,Electronics,Smartphone Charger,1,950.00,950.00
+1027,2025-02-09,120,Rumana Pervin,Clothing,Denim Jeans,2,1850.00,3700.00
+1028,2025-02-10,106,Ayesha Siddique,Sports,Football,1,1100.00,1100.00
+1029,2025-02-11,107,Rafiq Islam,Toys,Puzzle 1000pcs,1,950.00,950.00
+1030,2025-02-19,101,Tahsin Rahman,Books,Clean Code,3,1500.00,4500.00
+1031,2025-02-23,106,Ayesha Siddique,Beauty,Face Wash,2,420.00,840.00
+1032,2025-02-25,105,Imran Hossain,Books,Clean Code,1,1500.00,1500.00
+1033,2025-02-26,115,Rashid Mia,Beauty,Sunscreen SPF50,1,890.00,890.00
+1034,2025-03-01,102,Sumaiya Akter,Clothing,Denim Jeans,1,1850.00,1850.00
+1035,2025-03-02,101,Tahsin Rahman,Home & Kitchen,Non-stick Pan,2,1350.00,2700.00
+1036,2025-03-02,113,Mehedi Hasan,Sports,Cricket Bat,1,2400.00,2400.00
+1037,2025-03-02,116,Sabrina Yasmin,Clothing,Denim Jeans,2,1850.00,3700.00
+1038,2025-03-04,110,Lamia Hasan,Home & Kitchen,Coffee Maker,2,4200.00,8400.00
+1039,2025-03-04,101,Tahsin Rahman,Sports,Yoga Mat,4,980.00,3920.00
+1040,2025-03-05,105,Imran Hossain,Sports,Football,4,1100.00,4400.00
+1041,2025-03-05,104,Nusrat Jahan,Books,Bangla Novel Collection,4,750.00,3000.00
+1042,2025-03-09,101,Tahsin Rahman,Toys,Building Blocks,1,1250.00,1250.00
+1043,2025-03-14,113,Mehedi Hasan,Beauty,Hair Oil,1,350.00,350.00
+1044,2025-03-15,101,Tahsin Rahman,Books,Atomic Habits,1,850.00,850.00
+1045,2025-03-18,117,Junayed Karim,Sports,Cricket Bat,2,2400.00,4800.00
+1046,2025-03-22,104,Nusrat Jahan,Home & Kitchen,Non-stick Pan,3,1350.00,4050.00
+1047,2025-03-25,113,Mehedi Hasan,Books,Bangla Novel Collection,2,750.00,1500.00
+1048,2025-03-26,108,Priya Sharma,Home & Kitchen,Electric Kettle,2,1800.00,3600.00
+1049,2025-03-28,107,Rafiq Islam,Electronics,Mechanical Keyboard,2,4500.00,9000.00
+1050,2025-03-29,115,Rashid Mia,Home & Kitchen,Non-stick Pan,4,1350.00,5400.00
+1051,2025-03-29,112,Nadia Khan,Beauty,Hair Oil,4,350.00,1400.00
+1052,2025-04-02,107,Rafiq Islam,Sports,Football,1,1100.00,1100.00
+1053,2025-04-04,101,Tahsin Rahman,Toys,Building Blocks,3,1250.00,3750.00
+1054,2025-04-05,110,Lamia Hasan,Clothing,Formal Shirt,2,1250.00,2500.00
+1055,2025-04-09,112,Nadia Khan,Home & Kitchen,Blender,3,2700.00,8100.00
+1056,2025-04-10,117,Junayed Karim,Sports,Yoga Mat,4,980.00,3920.00
+1057,2025-04-12,113,Mehedi Hasan,Beauty,Sunscreen SPF50,2,890.00,1780.00
+1058,2025-04-13,117,Junayed Karim,Clothing,Winter Jacket,4,3500.00,14000.00
+1059,2025-04-13,113,Mehedi Hasan,Beauty,Hair Oil,4,350.00,1400.00
+1060,2025-04-18,112,Nadia Khan,Sports,Football,3,1100.00,3300.00
+1061,2025-04-20,110,Lamia Hasan,Electronics,Wireless Mouse,2,1200.00,2400.00
+1062,2025-04-22,101,Tahsin Rahman,,Puzzle 1000pcs,2,950.00,1900.00
+1063,2025-04-24,108,Priya Sharma,Sports,Resistance Bands,2,750.00,1500.00
+1064,2025-04-24,119,Omar Faruq,Beauty,Sunscreen SPF50,4,890.00,3560.00
+1065,2025-04-25,103,Farhan Chowdhury,Clothing,Hoodie,4,1450.00,5800.00
+1066,2025-04-26,117,Junayed Karim,Clothing,Cotton T-Shirt,3,650.00,1950.00
+1067,2025-04-28,104,Nusrat Jahan,Toys,Building Blocks,2,1250.00,2500.00
+1068,2025-05-02,117,Junayed Karim,Toys,Building Blocks,3,1250.00,3750.00
+1069,2025-05-05,103,Farhan Chowdhury,Toys,Remote Car,1,1850.00,1850.00
+1070,2025-05-06,112,Nadia Khan,,Atomic Habits,2,850.00,1700.00
+1071,2025-05-10,110,Lamia Hasan,Books,Clean Code,2,1500.00,3000.00
+1072,2025-05-11,101,Tahsin Rahman,Clothing,Cotton T-Shirt,1,650.00,650.00
+1073,2025-05-11,106,Ayesha Siddique,Toys,Puzzle 1000pcs,3,950.00,2850.00
+1074,2025-05-11,112,Nadia Khan,Sports,Cricket Bat,3,2400.00,7200.00
+1075,2025-05-14,115,Rashid Mia,Clothing,Hoodie,4,1450.00,5800.00
+1076,2025-05-17,116,Sabrina Yasmin,Clothing,Formal Shirt,2,1250.00,2500.00
+1077,2025-05-18,114,Tania Begum,Home & Kitchen,Electric Kettle,3,1800.00,5400.00
+1078,2025-05-19,101,Tahsin Rahman,Electronics,Smartphone Charger,2,950.00,1900.00
+1079,2025-05-22,101,Tahsin Rahman,Clothing,Cotton T-Shirt,1,650.00,650.00
+1080,2025-05-22,113,Mehedi Hasan,Beauty,Face Wash,2,420.00,840.00
+1081,2025-05-23,108,Priya Sharma,Home & Kitchen,Non-stick Pan,2,1350.00,2700.00
+1082,2025-05-26,101,Tahsin Rahman,Electronics,External SSD 1TB,4,8500.00,34000.00
+1083,2025-05-27,113,Mehedi Hasan,Clothing,Formal Shirt,4,1250.00,5000.00
+1084,2025-05-30,101,Tahsin Rahman,Toys,Puzzle 1000pcs,2,950.00,1900.00
+1085,2025-06-02,101,Tahsin Rahman,Beauty,Hair Oil,4,350.00,1400.00
+1086,2025-06-05,105,Imran Hossain,Clothing,Winter Jacket,2,3500.00,7000.00
+1087,2025-06-08,117,Junayed Karim,Books,Bangla Novel Collection,2,750.00,1500.00
+1088,2025-06-11,108,Priya Sharma,Beauty,Sunscreen SPF50,4,890.00,3560.00
+1089,2025-06-20,103,Farhan Chowdhury,Beauty,Moisturizer,3,680.00,2040.00
+1090,2025-06-23,114,Tania Begum,Sports,Yoga Mat,4,980.00,3920.00
+1091,2025-06-29,113,Mehedi Hasan,Clothing,Formal Shirt,3,1250.00,3750.00
+1092,2025-06-29,105,Imran Hossain,Toys,Building Blocks,4,1250.00,5000.00
