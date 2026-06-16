@@ -1,6 +1,8 @@
 using System.Globalization;
 using SalesAnalytics.Services;
 
+Console.WriteLine("Intial Commit without code");
+
 // Bangladeshi Taka formatting — fall back gracefully if culture is not installed.
 var moneyCulture = TryGetCulture("bn-BD") ?? CultureInfo.InvariantCulture;
 var moneyFormat = (decimal v) => v.ToString("N2", moneyCulture);
